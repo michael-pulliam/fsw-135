@@ -1,0 +1,222 @@
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+    background: #000;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0.5rem calc((100vw - 1000px) / 2);
+    z-index: 10;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: x-large;
+
+}
+.navLink { 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+    /* &.active{
+        color: #15cdfc;
+    }
+`; */
+/* .Bars {
+    display: none;
+    color: #fff;
+}
+    @media screen and (max-width: 768px) {
+        .navbar{
+            display: bock;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-100%, 75%);
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+
+    } */
+
+
+/* .navMenu {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+} */
+    /* @media screen and (max-width: 768px) {
+        .navbar{
+        display: none;
+        }
+    } */
+
+
+
+
+    @media screen and (max-width: 768px) {
+        .button{
+            display: none;
+        }
+        
+    }
+
+.auth-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px black;
+    border-radius: 4%;
+    background-color: cadetblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ .button {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    border-radius: 4px;
+    background: #256;
+    padding: 10px 22px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+ }
+    .button:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010605;
+    }
+    .signup-inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+    .username-input{
+        margin: 20px;
+    }
+    .auth-btn{
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        background: #256;
+        padding: 10px 22px;
+        color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+    }
+    .auth-btn:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010605;
+        padding: 10px;
+    }
+    .add-comment-btn{
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        background: #256;
+        padding: 10px 22px;
+        color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+    }
+    .add-comment-btn:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010605;
+    }
+    .delete-comment-btn{
+        border-radius: 4px;
+        background: #256;
+        padding: 10px 22px;
+        color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+    }
+    .delete-comment-btn:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010605;
+    }
+    .update-comment-btn{
+
+        border-radius: 4px;
+        background: #256;
+        padding: 10px 22px;
+        color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+    }
+    .update-comment-btn:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010605;
+    }
+
+    .auth-btn-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .auth-btn-div:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010605;
+    }
+.login-signup-toggle-p:hover{
+    color: #fff;
+
+}
+
+
+
+
+    .comment{
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .user-comment{
+        border: 10px black;
+        margin-right: 30%;
+       
+    }
+    .comment-inputs{
+        border-radius: 4%;
+    }
+
+
+    .profile{
+        font-family: 'Roboto', sans-serif;
+
+    }
+   
